@@ -1,0 +1,238 @@
+* {
+    font-family: "Sitka Banner", Times, serif;
+}
+
+.topo {
+    width: 100%;
+    background-color: black;
+    height: 55px;
+}
+
+input {
+    outline: none;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    background: #2E2B33 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px#2E2B33;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    height: 56px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    background-color: #2E2B33;
+    border-color: #2E2B33;
+    -webkit-box-shadow: 0 0 5px #2E2B33;
+    -moz-box-shadow: 0 0 5px #2E2B33;
+    box-shadow: 0 0 5px #2E2B33;
+}
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+#demo-2 input[type=search] {
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+
+input[type=search]:hover {
+    background-color: #2E2B33;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    padding-left: 32px;
+    color: #000;
+    background-color: #2E2B33 0% 0% no-repeat padding-box;
+    ;
+    cursor: auto;
+}
+
+input:-moz-placeholder {
+    color: transparent;
+}
+
+input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+a {
+    font-size: 17px;
+    color: #fff;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.titulo {
+    position: relative;
+    top: -55%;
+    color: #DCE963;
+}
+
+.titulo h3 {
+    font-weight: bold;
+}
+
+.sub {
+    position: relative;
+    top: -55%;
+}
+
+.sub h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#text {
+    position: relative;
+    top: -55%;
+}
+
+#text p {
+    font-size: 18px;
+}
+
+#form {
+    position: relative;
+    top: -55%;
+    left: 45%;
+}
+
+#form a {
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #DCE963;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 4px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 50%;
+    color: #fff;
+    background-color: #2e2b33;
+    opacity: 0.85;
+    position: absolute;
+    padding: 35px;
+    top: 550px;
+    left: 48%;
+    right: 0;
+}
+
+#background {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 909px;
+    background: #1E1D20 0% 0%;
+}
+
+#background2 {
+    top: 2076px;
+    left: 0px;
+    width: auto;
+    height: 909px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#background3 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 500px;
+    background: #1E1D20 0% 0%;
+}
+
+.box2 {
+    left: 43%;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+}
+
+.box2 h1 {
+    font-size: 70px;
+}
+
+#images {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    left: 14%;
+}
+
+.container {
+    color: #fff;
+    font-size: medium;
+}
+
+#image {
+    position: absolute;
+    left: 44%;
+}
+
+#podtext {
+    position: relative;
+    top: 20%;
+    left: -5%;
+    color: #000;
+}
+
+#podtext h1 {
+    font-weight: bold;
+}
+
+#podtext p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#box3 {
+    background: #1E1D20 0% 0%;
+    width: 156px;
+    height: 84px;
+}
+
+#finale {
+    position: relative;
+    left: -5%;
+    top: 20%;
+}
+
+#footer p {
+    font-size: 20px;
+}
