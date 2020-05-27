@@ -1,146 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Projeto2</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="style2.css" />
+  <title>Projeto2</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <header class="topo">
-        <div class="center">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Serviços</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Quem somos? </a>
-                </li>
-                <h3></h3>
-                <form>
-                    <input type="search" placeholder="">
-                </form>
+  <header class="topo">
+    <div class="center">
+      <div class="logo-nav"><a href="index.html"><img src="assets/logo-nav.svg" alt="logotipo"></a></div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Quem somos? </a>
+        </li>
+        <h3></h3>
+        <form>
+          <input type="search" placeholder="">
+        </form>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container-fluid p-0 m-0">
+
+    <figure class="pic">
+      <img src="assets/bg-home.jpg" alt="" id="main">
+    </figure>
+    <div class="tag">
+      <div class="row justify-content-center w-100 mw-100 pl-4">
+          <div class="col-12 col-sm-12 col-lg-12 col-md-12" >
+              <h4 class="text-title">Respondendo à COVID-19</h4>
+          </div>
+      </div>
+      <div class="row justify-content-center w-100 mw-100  pl-4">
+          <div class="col-12 col-sm-12 col-lg-12 col-md-12">
+              <h1 class="subtext-title">Resiliência e recuperação</h1>
+          </div>
+      </div>
+      <div class="row justify-content-between w-100 mw-100 pl-4 ">
+          <div class="col-8 col-sm-8 col-lg-8 col-md-8 d-none d-sm-block" >
+              <p>Impactos e respostas aos efeitos da COVID-19</br> leia mais artigos sobre o tema</p>
+          </div>
+          <div class="col-4 col-sm-4 col-lg-4 col-md-4 d-none d-sm-block" >
+              <button class="readmorebtn"> <a href="#"> Leia mais </a> </button>
+          </div>
+
+          <div class="row justify-content-center mw-100 w-100 d-block d-sm-none">
+              <div class="col-12 col-sm-12 col-lg-12 col-md-12 " >
+                  <button class="readmorebtn"> <a href="#"> Leia mais </a> </button>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+    <!-- DESTAQUES -->
+    <section class="destaques">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-sm-12">Destaques</h2>
+          <div class="col-sm-4 order1"><img src="assets/escolas_card.jpg" alt="Escolas"></div>
+          <div class="col-sm-4 order4"><img src="assets/home_card.jpg" alt="Home"></div>
+          <div class="col-sm-4 order7"><img src="assets/agro_card.jpg" alt="Agronegocio"></div>
+
+          <div class="col-sm-4 order2">
+            <h3>Covid-19: Impactos para os negócios</h3>
+          </div>
+          <div class="col-sm-4 order5">
+            <h3>Home-Office e produtividade</h3>
+          </div>
+          <div class="col-sm-4 order8">
+            <h3>COVID-19: Agronegocio brasileiro</h3>
+          </div>
+
+          <div class="col-sm-4 order3">
+            <p> A PwC e a Strategy& apontam três cenários da pandemia e os impactos para cada um deles. Confira!</p>
+          </div>
+          <div class="col-sm-4 order6">
+            <p> A como o trabalho em casa pode ser aliado da produtividade e como isso está impactando no faturamento das empresas.</p>
+          </div>
+          <div class="col-sm-4 order9">
+            <p> Veja como a pandemia da Covid-19 pode impactar a oferta em segmentos do agronegócio brasileiro.</p>
+          </div>
         </div>
-    </header>
+      </div>
+
+
+
+  </div>
+  </section>
+
+
+
+  <!-- PODCAST -->
+
+  <section class="podcast">
     <div class="container">
-        <div class="box">
-            <div class="row">
-                <div class="titulo">
-                    <h3>Respondendo à COVID-19</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="sub">
-                    <h1>Resiliência e recuperação</h1>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between">
-                <div class="row">
-                    <div id="text">
-                        <p>Impactos e respostas aos efeitos da COVID-19</br> leia mais artigos sobre o tema</p>
-                    </div>
-                    <div id="form">
-                        <a href="#">Leia mais</a>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>Acompanhe nosso PodCast <br> sobre a COVID </h2>
+          <p>A pandemia da COVID-19 está trazendo <br> mudanças e novos desafios no mundo dos <br> negócios. Pensando nisso, a EY oferece uma série <br> de webcasts com nossos profissionais e <br> especialistas de diversos setores. </p>
         </div>
+        <div class="col-sm-6">
+          <img src="./assets/pod-cast.jpg" class="img-fluid" alt="podcast">
+        </div>
+      </div>
     </div>
 
-    <div class="image">
-        <img src="./assets/banner2.jpeg" alt="imagetop" width="100%" height="auto">
-    </div>
+  </section>
 
-    <div id="background">
-        <div class="box2">
-            <h1>Destaques</h1>
-        </div>
-        <div class="container" id="images">
-            <div class=row>
-                <div class="col">
-                    <img src="./assets/Escolas.jpg" class="img-fluid" alt="" width="350" height="350">
-                    <h4>COVID-19: Impactos para os négocios</h4>
-                    <p>A PwC e a Strategy& apontam três cenários de pandemia e os impactos para cada um deles. Confira!</p>
-                </div>
-                <div class="col">
-                    <img src="./assets/Trabalho-em-casa.jpg" class="img-fluid" alt="" width="350" height="350">
-                    <h4>Home-Office e produtividade</h4>
-                    <p>A como o trabalho em casa pode ser aliado da produtividade e como isso está impactando no faturamento das empresas.</p>
-                </div>
-                <div class="col">
-                    <a href="#">
-                        <img src="./assets/Agronegocio-crop.jpg" class="img-fluid" alt="" width="350" height="350">
-                    </a>
-                    <h4>COVID-19: Agronegocio brasileiro</h4>
-                    <p>Veja como a pandemia da Covid-19 pode impactar a oferta em segmentos do agronegócio brasileiro.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
+<section class="rodape">
     <div class="container">
-        <div class="row" id="background2">
-            <div id="image">
-                <img src="./assets/pod-cast.jpg" width="850" height="910">
-            </div>
-            <div class="row" id="podtext">
-                <div class="col">
-                    <h1>Acompanhe nosso PodCast<br/> sobre o COVID</h1>
-                    <p><br/></p>
-                    <p><br/></p>
-                    <p><br/></p>
-                    <p>A pandemia da COVID-19 está trazendo<br/> mudanças e novos desafios no mundo dos<br/> negócios. Pensando nisso, a EY oferece uma série<br/> de webcasts com nossos profissionais e<br/> especialistas de diversos setores.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="background3">
-        <div class="container" id="finale">
-            <div class="row">
-                <div class=col id="box3">
-                </div>
-                <div class="col" id="footer">
-                    <h1>Sobre</h1>
-                    <p> <br/></p>
-                    <p>Quem somos</p>
-                    <p> <br/></p>
-                    <p>Serviços</p>
-                    <p> <br/></p>
-                    <p>Contatos</p>
-                </div>
-                <div class="col" id="footer">
+        <div class="col-sm-4">
+        <h2>Sobre</h2>
+                <p> <br/></p>
+                <p>Quem somos</p>
+                <p> <br/></p>
+                <p>Serviços</p>
+                <p> <br/></p>
+                <p>Contatos</p>
+            </div>  
+                <div class="col-sm-4">
                     <h2>Endereço</h2>
-                    <p> <br/></p>
-                    <p>Quem somos</p>
-                    <p> <br/></p>
-                    <p>Serviços</p>
-                    <p> <br/></p>
-                    <p>Contatos</p>
+                <p> <br/></p>
+                <p>Quem somos</p>
+                <p> <br/></p>
+                <p>Serviços</p>
+                <p> <br/></p>
+                <p>Contatos</p>
                 </div>
-                <div class="col" id="footer">
+                <div class="col-sm-4">
                     <h2>Inscreva-se</h2>
-                    <p> <br/></p>
-                    <p>Quem somos</p>
-                    <p> <br/></p>
-                    <p>Serviços</p>
-                    <p> <br/></p>
-                    <p>Contatos</p>
+                <p> <br/></p>
+                <p>Quem somos</p>
+                <p> <br/></p>
+                <p>Serviços</p>
+                <p> <br/></p>
+                <p>Contatos</p>
                 </div>
-            </div>
-        </div>
     </div>
+</section>
 
 
 
@@ -157,10 +173,9 @@
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 </body>
 
 </html>
